@@ -389,4 +389,342 @@ ul {
   margin: 0 auto;
 }
 
+.header {
+  background-color: #014e56;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  padding-top: 73px;
+  padding-bottom: 129px;
+  justify-content: space-between;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.header__list {
+  display: flex;
+  gap: 40px;
+}
+.header__item {
+  color: #ffffff;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  cursor: pointer;
+}
+.header__item:hover {
+  color: #f67e7e;
+}
+.header__btn {
+  padding: 10px 32px;
+  display: flex;
+  align-items: center;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  border: 2px solid #ffffff;
+  border-radius: 24px;
+  cursor: pointer;
+  background-color: #014e56;
+  color: #ffffff;
+  transition: all linear 0.3s;
+}
+.header__contact {
+  color: #ffffff;
+}
+.header__contact:hover {
+  color: #012f34;
+}
+.header__btn:hover {
+  padding: 10px 32px;
+  display: flex;
+  align-items: center;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  border: 2px solid #ffffff;
+  border-radius: 24px;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #012f34;
+}
+.header .position__img {
+  position: absolute;
+  right: 0;
+  top: 325px;
+}
+
+.intro {
+  background: #004047;
+  background-color: #014E56;
+}
+.intro__box {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding-bottom: 120px;
+}
+.intro__title {
+  max-width: 350px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100px;
+  color: #FFFFFF;
+}
+.intro__right {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.intro__linear {
+  background: #F67E7E;
+  width: 50px;
+  height: 4px;
+  display: block;
+}
+.intro__text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+  max-width: 730px;
+}
+
+.card {
+  background-color: #004047;
+}
+.card__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 76px;
+  padding-bottom: 168px;
+}
+.card__title-top {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 140px 0 64px;
+}
+.card__list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 30px;
+}
+.card__list-item {
+  background-color: #012F34;
+}
+.card__list-item1 {
+  background-color: #002529;
+}
+.card__box {
+  margin-bottom: 28px;
+}
+.card__title1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #79C8C7;
+  margin-top: 32px;
+}
+.card__word1 {
+  margin: 8px 48px 24px;
+}
+.card__bottom-logo {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60px;
+  gap: 16px;
+  margin-bottom: 7px;
+}
+.card__word1 {
+  max-width: 254px;
+  display: inline-block;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.card__img-avatar {
+  padding: 32px 127px 16px;
+}
+.card__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #79C8C7;
+}
+.card__word {
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.card__img {
+  margin-bottom: -33px;
+}
+.card__img1 {
+  margin-bottom: -67px;
+}
+.card .position__imgg {
+  position: absolute;
+  left: 0;
+  top: 530px;
+}
+.card .position__imggg {
+  position: absolute;
+  right: 0;
+  top: 1445px;
+}
+
+.block {
+  background-color: #012F34;
+}
+.block__title {
+  padding: 140px 260px 70px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.block__imgs {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 151px;
+  gap: 80px;
+}
+
+.bottom {
+  background-image: url(../../images/home-images/bottom-bg.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-color: #f67e7e;
+}
+.bottom__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 76px 0;
+}
+.bottom__title {
+  color: #012f34;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+}
+.bottom__btn {
+  padding: 10px 32px;
+  display: flex;
+  align-items: center;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  border: 2px solid #ffffff;
+  border-radius: 24px;
+  cursor: pointer;
+  background-color: #f67e7e;
+  color: #012f34;
+  border-color: #012f34;
+  transition: all linear 0.3s;
+}
+.bottom__contact {
+  color: #012f34;
+}
+.bottom__contact:hover {
+  color: #ffffff;
+}
+.bottom__btn:hover {
+  padding: 10px 32px;
+  display: flex;
+  align-items: center;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  border: 2px solid #ffffff;
+  border-radius: 24px;
+  cursor: pointer;
+  background-color: #012f34;
+  color: #ffffff;
+}
+
+.footer {
+  background-color: #002529;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 48px 0;
+}
+.footer__one {
+  display: flex;
+  gap: 125px;
+}
+.footer__list1 {
+  display: flex;
+  gap: 40px;
+  margin-top: 22px;
+}
+.footer__list1-item {
+  color: #ffffff;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  cursor: pointer;
+}
+.footer__list1-item:hover {
+  color: #f67e7e;
+}
+.footer__middle {
+  color: #ffffff;
+  cursor: pointer;
+}
+.footer__imgs {
+  display: flex;
+  gap: 16px;
+  justify-content: end;
+  margin-bottom: 51px;
+}
+.footer__img {
+  cursor: pointer;
+}
+.footer__text {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
 /*# sourceMappingURL=about.css.map */

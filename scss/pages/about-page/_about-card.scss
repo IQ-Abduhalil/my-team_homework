@@ -1,0 +1,98 @@
+.card{
+    background-color: #004047;
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 76px;
+        padding-bottom: 168px;
+    }
+    &__title-top{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 140px 0 64px;
+    }
+    &__list{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        gap: 30px;
+    }
+    &__list-item{
+        background-color: #012F34;
+    }
+    &__list-item1{
+        background-color: #002529;
+    }
+    &__box{
+        margin-bottom: 28px;
+    }
+    &__title1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        color: #79C8C7;
+        margin-top: 32px;
+    }
+    &__word1{
+        margin: 8px 48px 24px;
+    }
+    &__bottom-logo{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 60px;
+        gap: 16px;
+        margin-bottom: 7px;
+
+    }
+    &__word1{
+        max-width: 254px;
+        display: inline-block;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__img-avatar{
+        padding: 32px 127px 16px;
+    }
+    &__title{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        color: #79C8C7;
+    }
+    &__word{
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__img{
+        margin-bottom: -33px;
+    }
+    &__img1{
+        margin-bottom: -67px;
+    }
+    .position__imgg{
+        position: absolute;
+        left: 0;
+        top: 530px;
+    }
+    .position__imggg{
+        position: absolute;
+        right: 0;
+        top: 1445px;
+    }
+    
+}
