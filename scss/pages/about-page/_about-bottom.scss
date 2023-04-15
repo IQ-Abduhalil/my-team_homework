@@ -1,0 +1,49 @@
+@use '../../variables';
+@use '../../mixins';
+
+.bottom {
+  background-image: url(../../images/home-images/bottom-bg.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-color: variables.$light-coral;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 76px 0;
+  }
+
+  &__title {
+    color: variables.$state-green;
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  &__btn {
+    @include mixins.contact-btn(
+      $bg-color: variables.$light-coral,
+      $color: variables.$state-green
+    );
+    border-color: variables.$state-green;
+    transition: all linear 0.3s;
+  }
+
+  &__contact {
+    color: variables.$state-green;
+  }
+
+  &__contact:hover {
+    color: variables.$white;
+  }
+
+  &__btn:hover {
+    @include mixins.contact-btn(
+      $bg-color: variables.$state-green,
+      $color: variables.$white
+    );
+  }
+}

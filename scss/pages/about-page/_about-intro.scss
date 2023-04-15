@@ -1,0 +1,37 @@
+.intro{
+    background: #004047;
+    background-color: #014E56;
+    &__box{
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        padding-bottom: 120px;        
+    }
+    &__title{
+        max-width: 350px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 100px;
+        color: #FFFFFF;
+    }
+    &__right{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    &__linear{
+        background: #F67E7E;
+        width: 50px;
+        height: 4px;
+        display: block;
+    }
+    &__text{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        max-width: 730px;
+    }
+}
