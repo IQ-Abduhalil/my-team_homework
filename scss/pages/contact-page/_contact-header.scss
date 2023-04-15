@@ -1,5 +1,5 @@
-@use "../variables";
-@use "../mixins";
+@use "../../variables";
+@use "../../mixins";
 
 .header {
   background-color: variables.$midnight-green;
@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     padding-top: 73px;
-    padding-bottom: 129px;
+    padding-bottom: 120px;
     justify-content: space-between;
   }
 
@@ -52,7 +52,7 @@
   &__btn:hover {
     @include mixins.contact-btn(
       $bg-color: variables.$white,
-      $color: variables.$state-green
+      $color: variables.$midnight-green
     );
   }
 }

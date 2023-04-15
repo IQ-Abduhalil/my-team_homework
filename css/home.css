@@ -341,6 +341,12 @@ template {
   box-sizing: border-box;
 }
 
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -428,6 +434,13 @@ ul {
   cursor: pointer;
   background-color: #014e56;
   color: #ffffff;
+  transition: all linear 0.3s;
+}
+.header__contact {
+  color: #ffffff;
+}
+.header__contact:hover {
+  color: #012f34;
 }
 .header__btn:hover {
   padding: 10px 32px;
@@ -442,7 +455,7 @@ ul {
   border-radius: 24px;
   cursor: pointer;
   background-color: #ffffff;
-  color: #014e56;
+  color: #012f34;
 }
 
 .intro {
@@ -643,6 +656,13 @@ ul {
   background-color: #f67e7e;
   color: #012f34;
   border-color: #012f34;
+  transition: all linear 0.3s;
+}
+.bottom__contact {
+  color: #012f34;
+}
+.bottom__contact:hover {
+  color: #ffffff;
 }
 .bottom__btn:hover {
   padding: 10px 32px;

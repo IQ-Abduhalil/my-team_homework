@@ -1,0 +1,62 @@
+@use "../../variables";
+@use "../../mixins";
+
+.footer {
+  background-color: variables.$dark-green;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 0;
+  }
+
+  &__one {
+    display: flex;
+    gap: 125px;
+  }
+
+  &__list1 {
+    display: flex;
+    gap: 40px;
+    margin-top: 22px;
+  }
+
+  &__list1-item {
+    color: variables.$white;
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    cursor: pointer;
+  }
+
+  &__list1-item:hover {
+    color: variables.$light-coral;
+  }
+
+  &__middle {
+    color: variables.$white;
+    cursor: pointer;
+  }
+
+  &__imgs {
+    display: flex;
+    gap: 16px;
+    justify-content: end;
+    margin-bottom: 51px;
+  }
+
+  &__img {
+    cursor: pointer;
+  }
+
+  &__text {
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: variables.$white;
+  }
+}
