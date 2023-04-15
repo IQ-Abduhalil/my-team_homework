@@ -1,0 +1,24 @@
+@use "./variables";
+
+@mixin contact-btn($bg-color: false, $color: false) {
+  padding: 10px 32px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  border: 2px solid variables.$white;
+  border-radius: 24px;
+
+  @if $bg-color {
+    background-color: $bg-color;
+  } @else {
+    background-color: variables.$white;
+  }
+
+  @if $color {
+    color: $color;
+  } @else {
+    color: variables.$white;
+  }
+}
