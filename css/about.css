@@ -341,6 +341,12 @@ template {
   box-sizing: border-box;
 }
 
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   display: flex;
   flex-direction: column;

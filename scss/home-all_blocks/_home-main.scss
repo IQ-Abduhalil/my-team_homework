@@ -211,6 +211,15 @@
       $color: variables.$state-green
     );
     border-color: variables.$state-green;
+    transition: all linear 0.3s;
+  }
+
+  &__contact {
+    color: variables.$state-green;
+  }
+
+  &__contact:hover {
+    color: variables.$white;
   }
 
   &__btn:hover {
