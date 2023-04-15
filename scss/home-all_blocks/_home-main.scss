@@ -1,0 +1,222 @@
+@use "../variables";
+@use "../mixins";
+
+.intro {
+  background-image: url(../../images/home-images/intro-img2.png),
+    url(../../images/home-images/intro-img1.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 195px bottom, left top 65px;
+  background-color: variables.$midnight-green;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 255px;
+  }
+
+  &__title {
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+    max-width: 635px;
+    color: variables.$white;
+  }
+
+  &__title2 {
+    color: variables.$light-coral;
+  }
+
+  &__top {
+    display: inline-block;
+    width: 50px;
+    height: 4px;
+    margin-bottom: 80px;
+    background-color: variables.$rapture-blue;
+  }
+
+  &__text {
+    color: variables.$white;
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 445px;
+  }
+}
+
+.hero {
+  background-image: url(../../images/home-images/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-color: variables.$state-green;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 140px 0;
+  }
+
+  &__top {
+    display: inline-block;
+    width: 50px;
+    height: 4px;
+    margin-bottom: 54px;
+    background-color: variables.$light-coral;
+  }
+
+  &__title {
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    max-width: 445px;
+    color: variables.$white;
+  }
+
+  &__wrappers {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 58px;
+  }
+
+  &__wrapper {
+    display: flex;
+    gap: 23px;
+  }
+
+  &__wrapper-name {
+    color: variables.$light-coral;
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 16px;
+  }
+
+  &__wrapper-text {
+    color: variables.$white;
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    max-width: 445px;
+  }
+}
+
+.middle {
+  background-image: url(../../images/home-images/middle-bg2.png),
+    url(../../images/home-images/middle-bg1.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right bottom, left top;
+  background-color: variables.$deep-jungle-green;
+  &__container {
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 150px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  &__title {
+    color: variables.$white;
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    max-width: 932px;
+    margin-bottom: 76px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  &__title2 {
+    color: variables.$rapture-blue;
+  }
+
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__card {
+    background-image: url(../../images/home-images/middle-card-bg1.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+
+  &__card-text {
+    padding-top: 36px;
+    max-width: 350px;
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: variables.$white;
+    margin-bottom: 24px;
+  }
+
+  &__card-name {
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: variables.$rapture-blue;
+    margin-bottom: 3px;
+  }
+
+  &__card-job {
+    font-family: "Livvic";
+    font-size: 13px;
+    line-height: 18px;
+    color: variables.$white;
+    margin-bottom: 32px;
+  }
+}
+
+.bottom {
+  background-image: url(../../images/home-images/bottom-bg.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-color: variables.$light-coral;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 76px 0;
+  }
+
+  &__title {
+    color: variables.$state-green;
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  &__btn {
+    @include mixins.contact-btn(
+      $bg-color: variables.$light-coral,
+      $color: variables.$state-green
+    );
+    border-color: variables.$state-green;
+  }
+
+  &__btn:hover {
+    @include mixins.contact-btn(
+      $bg-color: variables.$state-green,
+      $color: variables.$white
+    );
+  }
+}

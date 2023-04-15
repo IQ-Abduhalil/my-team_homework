@@ -2,6 +2,8 @@
 
 @mixin contact-btn($bg-color: false, $color: false) {
   padding: 10px 32px;
+  display: flex;
+  align-items: center;
   font-family: "Livvic";
   font-style: normal;
   font-weight: 600;
@@ -9,6 +11,7 @@
   line-height: 28px;
   border: 2px solid variables.$white;
   border-radius: 24px;
+  cursor: pointer;
 
   @if $bg-color {
     background-color: $bg-color;
